@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Karla">
+  <link rel="stylesheet" href="style.css">
+  <title>Contact form</title>
+
+  
+  
+</head>
+<body>
+<form>
+
+<h1>Contact Us</h1>
+<div class="name-inputs">
+  <div>
+    <label for="firstname">First Name <span>*</span></label>
+    <input type="name" id="firstname" name="firstname" required>
+  </div>
+    <div><label for="lastname">Last Name <span>*</span> </label>
+      <input type="name" id="lastname" name="lastname" required>
+    </div>
+</div>
+
+  
+<div>
+  <label for="email">Email Address <span>*</span></label>
+  <input type="email" id="email" name="email" required>
+</div>
+<div class="query-container">
+  <label for="querytype">Query Type</label>
+
+    <div class="inputs-control">
+      <div class="inputs">
+         <div class="radios">
+        <input type="radio" name="Enquiry" id="radio1">
+        <p>Enquiry</p>
+      </div>
+      <div class="radios">
+        <input type="radio" name="Enquiry" id="radio2"> 
+        <p>Support Request</p>
+      </div>
+    </div class="inputs-control">
+    
+      </div>
+</div>
+  
+     
+
+
+
+<div class="sms">
+  <label for="message">Message <span>*</span></label>
+  <input type="text" name="message" id="message" placeholder="">
+<div>
+  <section class="container">
+    <input type="checkbox" id="consent" name="consent">
+    <label for="consent">  I consent to being contacted by the team</label> 
+  </section>
+  
+</div>  
+<button type="submit">Submit</button>
+
+</form>
+  
+</body>
+</html>

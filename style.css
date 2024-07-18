@@ -1,0 +1,147 @@
+
+body{
+    background-color: hsl(148, 38%, 91%);
+    font-size: 16px;
+    font-family: "Karla",sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+form{
+    width: 600px;
+    margin: 0 auto;
+    padding: 0px 20px 20px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 100%);   
+    margin-top: 70px;
+    margin-bottom: 70px;
+    
+}
+h1{
+margin-bottom: 20px;
+text-align: left;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid hsl(187, 24%, 22%);
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+
+input[type="text"]{
+    width:  100%;
+    padding: 10px 20px;
+    padding-left: 2%;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 400;
+    height: 70px;
+    color: hsl(186, 15%, 59%);
+    margin-bottom: 30px;
+    
+}
+input[type="name"]{
+    width:  295px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+
+
+}
+.name-inputs {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+    
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: hsl(169, 82%, 27%);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: hsl(169, 88%, 13%);
+}
+span{
+    color: hsl(169, 82%, 27%);
+}
+.container{
+    display: flex;
+}
+input[type="checkbox"]{
+    width: 5%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+
+input:focus{
+    outline: none;
+}
+input:hover{
+    border: 1.6px solid hsl(169, 82%, 27%);
+}
+.input-control{
+    font-size: 12px;
+    border: 0.4px solid hsl(187, 24%, 22%) ;
+   border-radius: 6px;
+   margin-bottom: 30px;
+}
+.radios{
+  padding: 10px;
+  width: 100%;
+  border: 1px solid  hsl(187, 24%, 22%);
+  border-radius: 6px;
+  display: flex;
+  height: 100%;
+  box-sizing: border-box;
+  align-items: center;
+}
+.inputs{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    gap: 20px;
+
+}
+input[type="radio"]{
+    flex-basis: 10px;
+    margin-bottom: 3%;
+
+}
+p{
+    margin-left: 25px;
+    margin-bottom: 7%;
+    color: hsl(187, 24%, 22%);
+}
+input[type="email"]{
+    margin-bottom: 30px;
+}
+.query-container{
+    margin-bottom: 30px;
+}
+#radio1,
+#radio2{
+    accent-color: hsl(169, 82%, 27%);}
+#consent{
+    accent-color: hsl(169, 82%, 27%);
+}
