@@ -46,8 +46,9 @@ input[type="text"]{
     font-size: 12px;
     font-weight: 400;
     height: 70px;
-    color: hsl(186, 15%, 59%);
+    color: black;
     margin-bottom: 30px;
+    align-content: flex-start;
     
 }
 input[type="name"]{
@@ -75,6 +76,7 @@ button[type="submit"] {
     border-radius: 6px;
     cursor: pointer;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 button:hover{
     background-color: hsl(169, 88%, 13%);
@@ -144,4 +146,7 @@ input[type="email"]{
     accent-color: hsl(169, 82%, 27%);}
 #consent{
     accent-color: hsl(169, 82%, 27%);
+}
+.sms{
+    color: black;
 }
